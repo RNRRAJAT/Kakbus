@@ -21,7 +21,7 @@ const Nav2 = () => {
     <>
     <nav className='h-20 flex justify-between fixed top-0 left-0 w-[100vw] z-10 bg-black'>
         <div className="navLeft ml-6 flex items-center">
-          <img className='w-16 rounded-md ml-10 cursor-pointer' src="\greatkakbus.png" alt="" />
+          <Link to='/'><img className='w-16 rounded-md ml-10 cursor-pointer' src="\greatkakbus.png" alt="" /></Link>
         </div>
         <div className="navRight mr-40 flex items-center ">
           <ul className='flex gap-10 text-xl '>
