@@ -1,17 +1,17 @@
 [
     {
       "Title": "Kakbus Flight Controller - 1",
-      "Image": "public/Projects/projectImage1.jpg",
+      "Image": "/Projects/projectImage1.jpg",
       "Description": " "
     },
     {
       "Title": "LC METER",
-      "Image": "public/Projects/projectImage2.jpg",
+      "Image": "/Projects/projectImage2.jpg",
       "Description": "This is a LC METER which consists of ->\n\n i) ATMEGA328P - 1\n ii) LM339 IC - 1\n iii) 16*2 LCD WITH I2C - 1\n iv) LM7805-1\n v) 100nF Capacitors - 2\n vi) 22pF Capacitors- 2,16 MHz -1\n vii) 1N4007 -2\n viii) 10K Resistors- 5\n ix) 220 ohm,150 ohm Resistor-1\n x) 330 ohm resistors - 2\n xi) PUSH BUTTONS - 3\n xii) Slide Switch -1,LED-1\n\n It can measure precisely ->\n i) Inductance -> from (10uH-1H)\n ii) Small Capacitances -> from ( 3 pF – 100 nF)\n iii) Big Capacitances -> from (100 nF – 5mF)\n\n It also consists an onboard Programming feature. The ATMEGA328P can be Programmed using FTDI module. The circuit can be powered using 9V battery. If any problem happens, the microcontroller gets hard reset. You can contact at the given mail – karanurag450@gmail.com"
     },
     {
       "Title": "LC METER",
-      "Image": "public/Projects/projectImage2.jpg",
+      "Image": "/Projects/projectImage2.jpg",
       "Description": "This is a LC METER which consists of ->\n\n i) ATMEGA328P - 1\n ii) LM339 IC - 1\n iii) 16*2 LCD WITH I2C - 1\n iv) LM7805-1\n v) 100nF Capacitors - 2\n vi) 22pF Capacitors- 2,16 MHz -1\n vii) 1N4007 -2\n viii) 10K Resistors- 5\n ix) 220 ohm,150 ohm Resistor-1\n x) 330 ohm resistors - 2\n xi) PUSH BUTTONS - 3\n xii) Slide Switch -1,LED-1\n\n It can measure precisely ->\n i) Inductance -> from (10uH-1H)\n ii) Small Capacitances -> from ( 3 pF – 100 nF)\n iii) Big Capacitances -> from (100 nF – 5mF)\n\n It also consists an onboard Programming feature. The ATMEGA328P can be Programmed using FTDI module. The circuit can be powered using 9V battery. If any problem happens, the microcontroller gets hard reset. You can contact at the given mail – karanurag450@gmail.com"
     }
 ]
