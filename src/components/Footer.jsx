@@ -13,7 +13,7 @@ const Footer = () => {
             <div>
                 
             <div>+91 - 8910364902</div>
-            <div>kakbus123@gmail.com</div>
+            <div>terawattkakbus@gmail.com</div>
             </div>
             
         </div>
