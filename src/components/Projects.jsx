@@ -33,7 +33,7 @@ const Projects = () => {
         </div> */}
                 {projectList.map((project, index) => (
                     <div key={index} onClick={() => handleClick(project, index)} className='card flex gap-10 mt-24 ml-40'>
-                        <div className="cardLeft"><img src={project.Image} className='h-52 rounded-md' alt="" /></div>
+                        <div className="cardLeft"><img src={`/${project.Image}`} className='h-52 rounded-md' alt="" /></div>
                         <div className="cardRight cursor-pointer flex flex-col gap-6 text-white">
                             <div className="title text-5xl">{project.Title}</div>
                             <div className='text-2xl'>Know more about this</div>

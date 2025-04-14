@@ -19,7 +19,7 @@ const ProjectDetails = () => {
       <div className="w-[70vw] container flex justify-between gap-20">
 
       <img 
-        src={`public/Projects/${state.Image}`}  // Correct image path relative to the public folder
+        src={state.Image}  // Correct image path relative to the public folder
         alt={state.Title} 
         className="mb-6 h-60 w-[30vw]" 
         />
