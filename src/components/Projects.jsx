@@ -10,7 +10,7 @@ const Projects = () => {
     const [projectList, setProjectList] = useState([]);
 
     useEffect(() => {
-        // Fetch the JSON file from the public folder
+        
         fetch('/projects.json')
             .then((response) => response.json())
             .then((data) => setProjectList(data));

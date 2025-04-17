@@ -17,39 +17,8 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [])
 
-  // const handleScroll = (sectionId) => {
-  //   if (window.location.pathname !== '/') {
 
-
-  //     window.location.href = `/#${sectionId}`;
-
-  //   }
-
-  //   else {
-  //     // Directly scroll to the section
-  //     const section = document.getElementById(sectionId);
-  //     if (section) {
-  //       section.scrollIntoView({ behavior: 'smooth' });
-  //     }
-  //   }
-  // };
-
-  const handleScroll = (height) => {
-    if (window.location.pathname !== '/') {
-      // Scroll to the given height from the current scroll position
-      window.scrollTo({
-        top: window.scrollY + height, // Scroll relative to the current scroll position
-        behavior: 'smooth',
-      });
-    } else {
-      // Directly scroll to the height relative to the current position
-      window.scrollTo({
-        top: window.scrollY + height, // Scroll by the given height
-        behavior: 'smooth',
-      });
-    }
-  };
-
+  
   return (
     <>
       <nav className={`h-20 flex justify-between navbar ${scrolled ? 'scrolled' : ''}`}>

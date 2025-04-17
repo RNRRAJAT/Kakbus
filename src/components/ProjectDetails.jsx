@@ -7,7 +7,7 @@ const ProjectDetails = () => {
 
   useEffect(() => {
     if (state) {
-      setDescriptionText(state.Description); // Directly using Description from state
+      setDescriptionText(state.Description); 
     }
   }, [state]);
 
@@ -19,7 +19,7 @@ const ProjectDetails = () => {
       <div className="w-[70vw] container flex justify-between gap-20 mt-10">
 
       <img 
-        src={state.Image}  // Correct image path relative to the public folder
+        src={state.Image}  
         alt={state.Title} 
         className="mb-6 h-60 w-[30vw]" 
         />
